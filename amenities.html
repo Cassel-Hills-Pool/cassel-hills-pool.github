@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cassel Hills Pool - Amenities</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<script src="javascript/navigation.js"></script>
+	<script src="javascript/focusScripts/amenitiesFocus.js"></script>
+</head>
+<body onload="get_focused();get_sidebar_and_overlay();">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="home.html" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="memberships.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Admission & Memberships</a>
+    <a href="amenities.html" class="w3-bar-item w3-button w3-theme-dark w3-hide-small w3-hover-white">Amenities</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-hide-large w3-bar-item"><b>Site Navigation</b></h4>
+  <a class="w3-hide-large w3-bar-item w3-button w3-hover-theme" href="memberships.html">Admission & Memberships</a>
+  <a class="w3-hide-large w3-bar-item w3-button w3-hover-theme-dark w3-theme" href="amenities.html">Amenities</a>
+  <a class="w3-hide-large w3-bar-item w3-button w3-hover-theme" href="contact.html">Contact</a>
+  <h4 class="w3-bar-item"><b>Page Navigation</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-theme-dark w3-theme" id="focus-amenities" href="#amenities" onclick="set_focus_amenities()">Pool Amenities</a>
+  <a class="w3-bar-item w3-button w3-hover-theme" id="focus-concessions" href="#concessions" onclick="set_focus_concessions()">Concessions Stand</a>
+  <a class="w3-bar-item w3-button w3-hover-theme" id="focus-special-events" href="#special-events" onclick="set_focus_special_events()">Special Events</a>
+  <a class="w3-bar-item w3-button w3-hover-theme" id="focus-rentals" href="#rentals" onclick="set_focus_rentals()">Pool Rentals</a>
+  <a class="w3-bar-item w3-button w3-hover-theme" id="focus-piranhas" href="#piranhas" onclick="set_focus_piranhas()">Piranhas Swim Team</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<main>
+<div class="w3-main" style="margin-left:250px"  id="main">
+	<div class="w3-row ">
+		<div class="w3-col m12 l9">
+			
+			<div class="w3-padding-32 w3-container" id="amenities">
+				<h1 class="w3-text-theme">Cassel Hills Pool Amenities</h1>
+				<h4>Cassel Hills Pool features:</h4>
+				<ul>
+					<li>A heated z-shaped pool with a shallow end junior olympic sized lap pool</li>
+					<li>Two Diving Boards in a twelve foot deep diving well</li>
+					<li>A kiddie pool for visitors under four years old and parents or older siblings actively playing with small children</li>
+					<li>Various snacks at the concession stand</li>
+					<li>A grass lawn with four large Funbrellas</li>
+					<li>Lawn chairs and loungers, provided on a first come, first serve basis regardless of age</li>
+					<li>A Basketball court (complementary basketballs available on a first come, first serve basis at the lifeguard office)</li>
+					<li>A Volleyball court (complementary volleyballs available on a first come, first serve basis at the lifeguard office)</li>
+				</ul>
+				<h4>Cassel Hills Pool does not offer:</h4>
+				<ul>
+					<li>Swim Lessons, which are instead <a href="https://www.vandaliaohio.org/243/Swim-Lessons" target="_blank">offered at the Vandalia Recreation Center  <sup><i class="fa fa-external-link"></i></sup></a></li>
+					<li>Aerobics or Water Excercise Classes</li>
+					<li>ADA Compliant, Fully Accessible Swimming, which is instead <a href="https://www.vandaliaohio.org/243/Swim-Lessons" target="_blank">available at the Vandalia Recreation Center  <sup><i class="fa fa-external-link"></i></sup></a></li>
+				</ul>
+			</div>
+			<div class="w3-padding-16 w3-container" id="concessions">
+				<h1 class="w3-text-theme">Kona Ice Concessions Stand</h1>
+				<p>Cassel Hills Pool's concessions stand will once again be operated by Kona Ice!<br><br>The concessions stand will open at 12 P.M., and closes at 6 P.M. every day, weather permitting.<br>In additon to their namesake shaved ice, Kona Ice also serves snacks including soft pretzels, nachos, assorted candies, and ice cream!</p>
+				<i>Cash and card are the only accepted payment options at the concessions stand.<br>We apologize for any inconvenience.</i>
+			</div>
+			<div class="w3-padding-16 w3-container" id="special-events">
+				<h1 class="w3-text-theme">Special Events</h1>
+				<p>The City of Vandalia and Cassel Hills Pool host monthly events throughout our regular season (June through August). These events are free to <a href="memberships.html#membership-categories">Members of Cassel Hills Pool</a>, Vandalia Residents, and families of the Vandalia-Butler School District. </p>
+				<table class="w3-table-all">
+					<thead>
+						<tr class="w3-theme-dark">
+							<th>Event Theme</th>
+							<th>Date</th>
+							<th>Time</th>
+						</tr>
+					</thead>
+					<tr class="w3-hover-theme">
+						<td>Beach Ball Night</td>
+						<td>June 13<sup>th</sup></td>
+						<td>5:00 P.M. - 8:00 P.M.</td>
+					</tr>
+					<tr class="w3-hover-theme">
+						<td>Rubber Duck Night</td>
+						<td>July 27<sup>th</sup></td>
+						<td>5:00 P.M. - 8:00 P.M.</td>
+					</tr>
+					<tr class="w3-hover-theme">
+						<td>Patriotic Night</td>
+						<td>August 10<sup>th</sup></td>
+						<td>5:00 P.M. - 8:00 P.M.</td>
+					</tr>
+				</table>
+			</div>
+			<div class="w3-padding-16 w3-container" id="rentals">
+				<h1 class="w3-text-theme">Pool Rentals</h1>
+				<p>Do you want to rent Cassel Hills Pool?<br><br>Cassel Hills Pool offers pool rentals on Friday, Saturday, and Sunday nights from 7:00 P.M. - 9:00 P.M. during the regular season (June through August).</p>
+				<table class="w3-table-all">
+					<thead>
+						<tr class="w3-theme-dark">
+							<th>Rental Type</th>
+							<th>Rental Price</th>
+							<th>Maximum Guest Number</th>
+						</tr>
+					</thead>
+					<tr class="w3-hover-theme">
+						<td>Non-resident & Non-Member</td>
+						<td>$450.00</td>
+						<td>50 Guests</td>
+					</tr>
+					<tr class="w3-hover-theme">
+						<td>Resident & Non-Member</td>
+						<td>$300.00</td>
+						<td>75 Guests</td>
+					</tr>
+					<tr class="w3-hover-theme">
+						<td><a href="memberships.html#membership-categories" class="hover-link-dark">Cassel Hills Pool Member</a></td>
+						<td>$250.00</td>
+						<td>100 Guests</td>
+					</tr>
+				</table>
+				<p><br>Reach out to Vandalia's Party Coordinator, Jennifer Webb, <a href="mailto:jwebb@vandaliaohio.org">via email at jwebb@vandaliaohio.org</a> or <a href="https://vandaliaohio.org/FormCenter/Parks-and-Recreation-9/Cassel-Hills-Pool-Private-Party-Rental-R-94" target="_blank">book your rental online today! <sup><i class="fa fa-external-link"></i></sup></a></p>
+			</div>
+			<div class="w3-padding-16 w3-container" id="piranhas">
+				<h1 class="w3-text-theme">Cassel Hills Piranhas Swim Team</h1>
+				<p>Offering swim instruction for those ages 4-5 as well as competitive swim practices and competion for children up to age 18, the Cassel Hills Piranhas are a great way to experience competitive swim during the summer months! Meeting before opening at Cassel Hills Pool, the Piranhas practice for competition with other teams in the Southern Ohio Swim League, participating in six two-team meets and a seven-team Swim Championship Meet throughout the summer. Cassel Hills Pool closes at 4:30 P.M. for the three home meets that the Piranhas host on June 15<sup>th</sup>, 22<sup>nd</sup>, and 29<sup>th</sup>.</p>
+				
+				<p>You can learn more about the Piranhas on <a href="https://www.casselhillspiranhas.com/" target="_blank">their website <sup><i class="fa fa-external-link"></i></sup></a> or <a href="https://www.facebook.com/203550299668924" target="_blank"> the Piranhas' Facebook page <sup><i class="fa fa-external-link"></i></sup>.</a><br>To reach out to the Piranhas Swim Team, <a href="sendto:casselhillspiranhas@gmail.com">send an email to casselhillspiranhas@gmail.com</a>.</p>
+			</div>
+		</div>
+		<div class="w3-col l3 w3-container w3-padding-64 w3-hide-small w3-hide-medium">
+	</div>
+  </div>
+	</main>
+  <footer id="footer" class="w3-main" style="margin-left:250px">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Find us on the web!</h4>
+      <a class="w3-button w3-large w3-padding w3-margin-large w3-theme" href="https://www.facebook.com/vandaliacasselhillspool/" target="_blank" title="Cassel Hills Pool - Facebook">Cassel Hills Pool Facebook</a>
+	  <a class="w3-button w3-large w3-padding w3-margin-large w3-theme" href="https://vandaliaohio.org/241/Cassel-Hills-Pool---Outdoor" target="_blank" title="Vandalia Parks & Recreation Department - Cassel Hills Pool">Cassel Hills Pool Official Site</a>
+	  <a class="w3-button w3-large w3-padding w3-margin-large w3-theme" href="https://vandaliaohio.org/157/Parks-Recreation" target="_blank" title="Vandalia Parks & Recreation Department - Cassel Hills Pool">Vandalia Parks and Recreation Department</a>
+	  <a class="w3-button w3-large w3-padding w3-margin-large w3-theme" href="https://www.youtube.com/user/VandaliaOhio" target="_blank" title="City of Vandalia - Youtube">City of Vandalia Youtube</a>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Developed by <a href="https://aarontook.github.io/" target="_blank" style="text-decoration:none">AaronTook</a><br>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" style="text-decoration:none">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+</body>
+</html>
+

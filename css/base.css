@@ -1,0 +1,47 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+iframe, object, embed{max-width: 100%;width: 100%;}
+
+a {
+	text-decoration:none;
+}
+a:hover {
+	!important;
+	color:#07a6e0 !important
+}
+a.hover-link-dark:hover {
+	color:#0069a7 !important
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
+}
+main {
+	flex-grow: 1;
+}
+
+.w3-theme {color:#fff !important; background-color:#07a6e0 !important}
+.w3-text-theme {color:#07a6e0 !important}
+.w3-border-theme {border-color:#07a6e0 !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#07a6e0 !important}
+.w3-hover-text-theme:hover {color:#07a6e0 !important}
+.w3-hover-border-theme:hover {border-color:#07a6e0 !important}
+
+
+.w3-theme-dark {color:#fff !important; background-color:#0069a7 !important}
+.w3-text-theme-dark {color:#0069a7 !important}
+.w3-border-theme-dark {border-color:#0069a7 !important}
+
+.w3-hover-theme-dark:hover {color:#fff !important; background-color:#0069a7 !important}
+.w3-hover-text-theme-dark:hover {color:#0069a7 !important}
+.w3-hover-border-theme-dark:hover {border-color:#0069a7 !important}
