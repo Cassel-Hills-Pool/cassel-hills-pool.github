@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cassel-hills-pool.github.io/</loc>
+    <lastmod>2023-09-02</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cassel-hills-pool.github.io/memberships</loc>
+    <lastmod>2023-09-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cassel-hills-pool.github.io/amenities</loc>
+    <lastmod>2023-09-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cassel-hills-pool.github.io/contact</loc>
+    <lastmod>2023-09-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cassel-hills-pool.github.io/files/2023%20Members%20and%20Visitors%20Guide.pdf</loc>
+    <lastmod>2023-09-02</lastmod>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://cassel-hills-pool.github.io/google146d3d4dc14f2346.html</loc>
+    <lastmod>2023-09-03</lastmod>
+    <priority>0.0</priority>
+  </url>
+</urlset>
