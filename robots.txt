@@ -5,3 +5,4 @@ Allow: .html
 Allow: .png
 Allow: .jpg
 Allow: .pdf
+Allow: .xml
