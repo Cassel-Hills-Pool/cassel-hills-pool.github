@@ -45,3 +45,10 @@ main {
 .w3-hover-theme-dark:hover {color:#fff !important; background-color:#0069a7 !important}
 .w3-hover-text-theme-dark:hover {color:#0069a7 !important}
 .w3-hover-border-theme-dark:hover {border-color:#0069a7 !important}
+
+h1.pageHeader {
+	font-size: 64px;
+}
+h2.sectionHeader {
+	font-size: 64px;
+}
