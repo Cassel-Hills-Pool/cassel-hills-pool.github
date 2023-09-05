@@ -47,8 +47,8 @@ main {
 .w3-hover-border-theme-dark:hover {border-color:#0069a7 !important}
 
 h1.pageHeader {
-	font-size: 64px;
+	font-size: 32px;
 }
 h2.sectionHeader {
-	font-size: 64px;
+	font-size: 32px;
 }
