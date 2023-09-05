@@ -1,6 +1,6 @@
 {
-	"regular season_start": [{"month": 5, "day": 27, "year": 2023}],
-	"regular season_end": [{"month": 8, "day": 13, "year": 2023}],
+	"regular season start": [{"month": 5, "day": 27, "year": 2023}],
+	"regular season end": [{"month": 8, "day": 13, "year": 2023}],
 	"swim meets": [{"month": 6, "day": 15, "year": 2023, "start hour": 4, "start minute": 30, "end hour": 22}, {"month": 6, "day": 22, "year": 2023, "start hour": 4, "start minute": 30, "end hour": 22}, {"month": 6, "day": 29, "year": 2023, "start hour": 4, "start minute": 30, "end hour": 22}],
 	"special events": [{"name": "Beach Ball Night", "month": 6, "day": 13, "year": 2023, "start hour": 17, "end hour": 20}, {"name": "Rubber Duck Night", "month": 7, "day": 27, "year": 2023, "start hour": 17, "end hour": 20}, {"name": "Patriotic Night", "month": 8, "day": 10, "year": 2023, "start hour": 17, "end hour": 20}],
 	"soggy dog night": {"month": 9, "day": 4, "year": 2023, "start hour": 18, "end hour": 20},
