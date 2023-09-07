@@ -6,3 +6,12 @@ Allow: .png
 Allow: .jpg
 Allow: .pdf
 Allow: .xml
+
+User-agent: Bingbot
+Allow: .js
+Allow: .css
+Allow: .html
+Allow: .png
+Allow: .jpg
+Allow: .pdf
+Allow: .xml
