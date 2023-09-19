@@ -1,4 +1,4 @@
-# Cassel Hills Pool (A GitHub Pages Website)
+# Cassel Hills Pool
 
 <h2>This is an unofficial static website developed by AaronTook.</h2>
 <p>At the request of the City of Vandalia, the live deployment of the site no longer exists. Apologies for any inconvenience this causes.</p>
