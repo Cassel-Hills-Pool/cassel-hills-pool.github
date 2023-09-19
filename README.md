@@ -1,7 +1,7 @@
 # Cassel Hills Pool (A GitHub Pages Website)
 
 <h2>This is an unofficial static website developed by AaronTook.</h2>
-<p>The live deployment of the website can be found at https://cassel-hills-pool.github.io.</p>
+<p>At the request of the City of Vandalia, the live deployment of the site no longer exists. Apologies for any inconvenience this causes.</p>
 
 
 <p>An official webpage for Cassel Hills Pool can be found on the City of Vandalia's website at https://vandaliaohio.org/241/Cassel-Hills-Pool---Outdoor
